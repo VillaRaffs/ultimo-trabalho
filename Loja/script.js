@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
   fetch('../Dados/mock.json').then((response) => response.json())
     .then((data) => {
       produtos = data
-      //console.log(data)
+      console.log(data)
 
       const produtosContainer = document.getElementById('produtos-container')
       produtos.forEach((produto, index) => {
