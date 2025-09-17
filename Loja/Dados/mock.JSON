@@ -2,55 +2,67 @@
     {
         "id": 1,
         "descricao": "48 Leis do Poder",
-        "imagem": "../Dados/imagens/48-leis-do-poder.jpg",
+        "imagem": "./Dados/imagens/48-leis-do-poder.jpg",
         "preco": 69.90
     },
     {
         "id": 2,
-        "descricao": "Saco de Laranja",
-        "imagem": "./Dados/imagens/48-leis-do-poder.jpg",
-        "preco": 35.0
+        "descricao": "A Seleção",
+        "imagem": "./Dados/imagens/A-selecao.jpg",
+        "preco": 42.87
     },
     {
         "id": 3,
-        "descricao": "Saco de Batata",
-        "imagem": "./Dados/imagens/A-coroa.jpg",
-        "preco": 40.0
+        "descricao": "A Elite",
+        "imagem": "./Dados/imagens/A-elite.jpg",
+        "preco": 54.31
     },
     {
         "id": 4,
-        "descricao": "Limão unidade",
-        "imagem": "./Dados/imagens/48-leis-do-poder.jpg",
-        "preco": 1.0
+        "descricao": "A Escolha",
+        "imagem": "./Dados/imagens/A-escolha.jpg",
+        "preco": 42.69
     },
     {
         "id": 5,
-        "descricao": "Mamão unidade",
-        "imagem": "./Dados/imagens/48-leis-do-poder.jpg",
-        "preco": 16.0
+        "descricao": "A Herdeira",
+        "imagem": "./Dados/imagens/A-herdeira.jpg",
+        "preco": 39.90
     },
     {
         "id": 6,
-        "descricao": "Bandeja de Cereja",
-        "imagem": "./Dados/imagens/48-leis-do-poder.jpg",
-        "preco": 60.0
+        "descricao": "A Coroa",
+        "imagem": "./Dados/imagens/A-coroa.jpg",
+        "preco": 42.54
     },
     {
         "id": 7,
-        "descricao": "Cacho de Banana",
-        "imagem": "./Dados/imagens/48-leis-do-poder.jpg",
-        "preco": 5.0
+        "descricao": "A Prometida",
+        "imagem": "./Dados/imagens/A-prometida.jpg",
+        "preco": 47.06
     },
     {
         "id": 8,
-        "descricao": "Kiwi unidade",
-        "imagem": "./Dados/imagens/48-leis-do-poder.jpg",
-        "preco": 3.0
+        "descricao": "A Padaria dos Finais Felizes",
+        "imagem": "./Dados/imagens/A-padaria-dos-finais-felizes.jpg",
+        "preco": 51.81
     },
      {
         "id": 9,
-        "descricao": "Maracujá unidade",
-        "imagem": "./Dados/imagens/48-leis-do-poder.jpg",
-        "preco": 5.30
+        "descricao": "O Demonologista",
+        "imagem": "./Dados/imagens/O-demonologista.jpg",
+        "preco": 85.06
+    },
+    {
+        "id": 10,
+        "descricao": "Frankenstein",
+        "imagem": "./Dados/imagens/Frankenstein.webp",
+        "preco": 78.00
+    },
+    {
+        "id": 11,
+        "descricao": "Shine: Uma Chance de Brilhar",
+        "imagem": "./Dados/imagens/shine.webp",
+        "preco": 49.90
     }
 ]
