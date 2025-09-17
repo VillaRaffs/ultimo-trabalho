@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.background{
+    background-image: url('./imagem/png.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+
+.container{
+    background-color: rgba(255, 255, 255, 0.466);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius:10px;
+    border: 3px solid white;
+    animation: top 1s linear;
+}
+
+@keyframes top{
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+h1{
+    color: aliceblue;
+    font-size: 48px;
+    animation: bottom 1s linear;
+    font-family: "Bitcount", system-ui;
+}
+
+@keyframes bottom{
+    0%{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+label{
+    text-align: left;
+    width: 100%;
+    margin-bottom: -10px;
+    color: purple;
+}
+
+input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid white;
+    font-weight: bold;
+}
+
+input::placeholder{
+    color: purple;
+    font-weight: lighter;
+}
+
+input:focus{
+    outline: none;
+}
+
+.btn{
+    padding: 10px;
+    border: none;
+    border: 3px solid purple;
+    color: purple;
+    background: transparent;
+    transition: all 200ms ease-in-out;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.btn:hover{
+    background: white;
+    cursor: pointer;
+    color: purple;
+}
+
+#respMedia{
+    font-size: 36px;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
