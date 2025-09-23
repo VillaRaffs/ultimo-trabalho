@@ -4,8 +4,8 @@
     margin: 0;
     box-sizing: border-box;
 }
-.background{
-    background-image: url('./imagem/gatinho_soma.png');
+.background1{
+    background-image: url('./imagem/gatinho_multi.png');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -15,9 +15,9 @@
     font-weight: bold;
     height: 100vh;
     font-family: "Inter", sans-serif;
-}   
+}
 
-.container{
+.container1{
     background-color: rgba(255, 255, 255, 0.466);
     display: flex;
     flex-direction: column;
@@ -25,7 +25,7 @@
     justify-content: center;
     gap: 10px;
     padding: 20px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius:10px;
     border: 3px solid white;
     animation: top 1s linear;
@@ -81,7 +81,7 @@ input:focus{
     outline: none;
 }
 
-.btn{
+.btn1{
     padding: 10px;
     border: none;
     border: 3px solid purple;
@@ -92,7 +92,7 @@ input:focus{
     width: 100%;
 }
 
-.btn:hover{
+.btn1:hover{
     background: white;
     cursor: pointer;
     color: purple;

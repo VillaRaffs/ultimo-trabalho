@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 .background1{
-    background-image: url('./imagem/SUB.avif');
+    background-image: url('./imagem/gatinho_sub.png');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
