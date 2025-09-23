@@ -4,7 +4,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-.background1{
+.background{
     background-image: url('./imagem/gatinho_div.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,10 +14,10 @@
     justify-content: center;
     font-weight: bold;
     height: 100vh;
-    font-family: "Inter", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
-.container1{
+.container{
     background-color: rgba(255, 255, 255, 0.466);
     display: flex;
     flex-direction: column;
@@ -30,6 +30,7 @@
     border: 3px solid white;
     animation: top 1s linear;
 }
+
 
 @keyframes top{
     0%{
@@ -45,7 +46,7 @@ h1{
     color: aliceblue;
     font-size: 48px;
     animation: bottom 1s linear;
-    font-family: "Playwrite AU QLD", cursive;
+    font-family: "Bitcount", system-ui;
 }
 
 @keyframes bottom{
@@ -81,7 +82,7 @@ input:focus{
     outline: none;
 }
 
-.btn1{
+.btn{
     padding: 10px;
     border: none;
     border: 3px solid purple;
@@ -92,7 +93,7 @@ input:focus{
     width: 100%;
 }
 
-.btn1:hover{
+.btn:hover{
     background: white;
     cursor: pointer;
     color: purple;

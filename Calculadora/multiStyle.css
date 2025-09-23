@@ -12,9 +12,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-weight: bold;
+    font-weight: bold; 
     height: 100vh;
-    font-family: "Inter", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 .container1{
@@ -45,7 +45,7 @@ h1{
     color: aliceblue;
     font-size: 48px;
     animation: bottom 1s linear;
-    font-family: "Playwrite AU QLD", cursive;
+    font-family: "Bitcount", system-ui;
 }
 
 @keyframes bottom{

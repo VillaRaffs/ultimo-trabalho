@@ -5,10 +5,12 @@ body{
     align-items: center;
     justify-content: center;
     gap: 20px;
-    background-image: url("./imagem/gatinho_inicio.png");
+    background-image: url("./imagem/gatinho_sub.png");
     background-size: cover;
     background-repeat:no-repeat;
     background-position: top;
+    font-family: "Bitcount", system-ui;
+
 }
 
 button{

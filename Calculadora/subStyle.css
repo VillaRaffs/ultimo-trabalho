@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 .background1{
-    background-image: url('./imagem/gatinho_sub.png');
+    background-image: url('./imagem/gatinho_inicio.png');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -14,7 +14,8 @@
     justify-content: center;
     font-weight: bold;
     height: 100vh;
-    font-family: "Inter", sans-serif;
+        font-family: "Roboto", sans-serif;
+
 }
 
 .container1{
@@ -45,7 +46,7 @@ h1{
     color: aliceblue;
     font-size: 48px;
     animation: bottom 1s linear;
-    font-family: "Playwrite AU QLD", cursive;
+    font-family: "Bitcount", system-ui;
 }
 
 @keyframes bottom{
